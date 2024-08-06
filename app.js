@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.get('/', (req,res)=>{
-    res.send("hey");
+    res.redirect("index");
 })
 
 app.listen(3000);
